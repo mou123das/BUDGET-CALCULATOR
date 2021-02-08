@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <title>Budget Calculator</title>
+  
+</head>
+
+<body>
+  
+	<div id="welcome">
+		
+		<div id="header">
+			<h1>Welcome to the Budget Calculator</h1>
+		</div>
+		
+		<hr>
+		<br>
+		
+		<div id="text">
+		    <label for="enter-budget">Please Enter your budget below (&#x20B9;)</label>
+			<br>
+			<br>
+			<input type="text" name="budget" id="enter-budget" placeholder="Enter your budget..">
+			<br>
+			<br>
+			<button type="submit" onclick="progress()">Continue</button>
+		</div>
+		
+		
+	</div>
+	
+	
+	
+	<div id="menu">
+	
+		<div id="sub-heading">	
+			<h1>Items List</h1>
+			<hr id="head">
+			<p>Enter quantity of each item</p>
+		</div>
+		
+		<hr>
+		
+		<div id="menu-items">
+			<table cellspacing="15">
+			
+			  <tr>
+				<th>Item</th>
+				<th>Price/quantity(&#x20B9;)</th>
+				<th>Enter Quantity</th>
+			  </tr>			  
+			  
+			  <tr>
+				<td>Crispy chicken (1pc)</td>
+				<td>90</td>
+				<td><input type="text" value="0" id="item-1"></td>
+			  </tr>
+			  
+			  <tr>
+				<td>Chicken popcorn (25pc)</td>
+				<td>75</td>
+				<td><input type="text" value="0" id="item-2"></td>
+			  </tr>
+			  
+			  <tr>
+				<td>Spicy wings in garlic sauce (8pc)</td>
+				<td>110</td>
+				<td><input type="text" value="0" id="item-3"></td>
+			  </tr>
+			  
+			  <tr>
+				<td>French fries (1 bucket)</td>
+				<td>50</td>
+				<td><input type="text" value="0" id="item-4"></td>
+			  </tr>
+			  
+			  <tr>
+				<td>Cheese chicken sandwich (1pc)</td>
+				<td>65</td>
+				<td><input type="text" value="0" id="item-5"></td>
+			  </tr>
+			  
+			</table>
+
+			<hr>
+			
+			<button type="submit" onclick="calculate()">Calculate</button>
+		</div>
+		
+	</div>
+	
+	
+	
+	<div id="display">
+	
+		<div id="display-heading">	
+			<h1>Budget calculator says</h1>
+			<hr id="head">			
+		</div>
+		
+		<div id="response">
+		</div>
+		
+		<hr id="head">
+		
+		<h5 style="font-style:italic;margin:15px 0px 3px 0px">Click below to restart</h5>
+		<button type="submit" onclick="home()">Home</button>		
+	</div>
+	
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+
+</html>
