@@ -8,5 +8,9 @@ Made using HTML, CSS and Javascript.
 * From the items-list you need to select how many of those items you would like to purchase.
 * Finally a message will be showing whether you would able to buy those items or not and your savings.
 
+🔸 This project was made for Scrimba's Weekly Web Dev Challenge! 
+   Topic:The Weekly Web Dev Challenge: Budgeting Tool 💸
+   ▪ This project was featured in that particular week's live stream along with the other few selected ones!! 🌟
+
 # Hosted-Link:
 https://mou123das.github.io/BUDGET-CALCULATOR/.
