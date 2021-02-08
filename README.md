@@ -10,7 +10,7 @@ Made using HTML, CSS and Javascript.
 
 🔸 This project was made for Scrimba's Weekly Web Dev Challenge! <br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ Topic: The Weekly Web Dev Challenge: Budgeting Tool 💸 <br>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ This project was featured in that particular week's live stream along with the other few selected ones!! 🌟
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ This project was featured in that particular week's live stream along with the other few selected ones!!🌟
 
 # Hosted-Link:
 https://mou123das.github.io/BUDGET-CALCULATOR/.
